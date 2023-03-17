@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.000062">
+<testcase classname="To check the Facebook page" name="To Check The Login page of the Applicationsd" time="7.000062">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.f3.user_has_to_pass_the_invalid_password_in_password_fieldsd(f3.java:40)&#13;&#10;&#9;at ✽.user has to pass the invalid password in password fieldsd(src/test/resources/f1.feature:41)&#13;&#10;"><![CDATA[When user has to load the FaceBook Applicationsd............................passed
+When user has to pass the invalid username in email fieldsd.................passed
+And user has to pass the invalid password in password fieldsd...............failed
+And user has to click the login buttonsd....................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.f3.user_has_to_pass_the_invalid_password_in_password_fieldsd(f3.java:40)
+	at ✽.user has to pass the invalid password in password fieldsd(src/test/resources/f1.feature:41)
+]]></failure>
+</testcase>
+</testsuite>
