@@ -14,7 +14,7 @@ Feature: To check the Facebook page
       | pass1 | sharathi |
     And user has to click the login buttons
 
-  @scenarioTwo
+  @mass
   Scenario: To Check The Login page of the Applicatios
     When user has to load the FaceBook Applicatios
     # Two Dimensional map

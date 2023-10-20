@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "@src\\test\\resources\\failed.txt",
    glue = "org.stepdefinition",
    monochrome = true,
-   tags= "@Data",
+   tags= "@act",
    plugin=  {"rerun:C:\\Users\\Bharathi\\eclipse-workspace\\Mavencucum\\src\\test\\resources\\failed.txt"})
 
 public class Rerunner {
@@ -22,9 +22,9 @@ public class Rerunner {
 	public static void PostReport() {
 		JvmReportclass.repo("C:\\Users\\Bharathi\\eclipse-workspace\\Mavencucum\\Json\\Fbreport.json");
 
-	}
+
 	
 	
 	
-	
+	}	
 }

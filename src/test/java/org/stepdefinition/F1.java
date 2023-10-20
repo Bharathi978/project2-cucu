@@ -4,12 +4,14 @@ import java.util.Map;
 
 import org.base.BaseClasscucum;
 import org.pojas.loginpojo;
+import org.testng.Assert;
 
 import cucumber.api.java.en.When;
             /// One Dimensional Map ///
 public class F1 extends BaseClasscucum {
 	 loginpojo l;
 	 
+	 // @act
 	@When("user has to load the FaceBook Applications")
 	public void user_has_to_load_the_FaceBook_Applications() {
 	   	 
@@ -24,6 +26,7 @@ public class F1 extends BaseClasscucum {
 	 l = new loginpojo();
 	  Map<String , String> h = g.asMap(String.class, String.class);
 	  passtext(l.getEmailtex(), h.get("emailthree"));
+	  Assert.assertTrue(false);
 	  getAttributetxt(l.getEmailtex());
 	  
 	}

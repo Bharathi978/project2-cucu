@@ -18,7 +18,9 @@ import io.cucumber.datatable.DataTable;
 public class FacebookLogin extends BaseClasscucum {
 
 	loginpojo l;
-
+	
+      //@key
+	
 	@Given("user has to load the Browser and Max the Window")
 	public void user_has_to_load_the_Browser_and_Max_the_Window() {
 		browserlunch();
@@ -61,7 +63,7 @@ public class FacebookLogin extends BaseClasscucum {
 	
 	
 	
-	// 2 scenarios   tags concept
+	// 2 outline   tags concept
 	
 	@Given("to load  browser max  the window")
 	public void to_load_browser_max_the_window() {
@@ -77,8 +79,9 @@ public class FacebookLogin extends BaseClasscucum {
 	@When("to pass postive and neagative data in {string}email field")
 	public void to_pass_postive_and_neagative_data_in_email_field(String em) {
 		l = new loginpojo();
-	//Assert.assertTrue(false);
+	
 		passtext(l.getEmailtex(), em);
+		//Assert.assertTrue(false);
 	}
 
 	@When("to pass postive and negative dat in{string} password field")

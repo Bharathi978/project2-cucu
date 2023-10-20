@@ -19,7 +19,15 @@ Feature: To check the Facebook page
       
     And user has to click the login button
 
-  @scenario2
+
+
+
+
+
+
+
+
+  @out
   Scenario Outline: to validate login with postive and negative combination datas
     When to lauch the url o the facebook application
     When to pass postive and neagative data in "<username datas>"email field
@@ -31,3 +39,46 @@ Feature: To check the Facebook page
       | seli@gmail.com  | sel@123        |
       | phyth@gmail.com | phy@123        |
       | java@gmail.com  | java@123       |
+      
+      
+      
+      
+      
+     
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

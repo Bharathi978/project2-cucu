@@ -23,7 +23,7 @@ public class loginpojo extends BaseClasscucum {
 
 	
 	@FindBy(name= "login")
-	private WebElement	 login;	
+	private WebElement login;	
 	
 	
 	

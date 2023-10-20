@@ -15,7 +15,7 @@ public class HookClass extends BaseClasscucum {
 	public void precondision1 () {
 		
 		max();
-		//System.out.println("2 window maxmize");
+		System.out.println("2 window maxmize");
        
 	}
     @Before(order=5)
@@ -31,7 +31,7 @@ public class HookClass extends BaseClasscucum {
 	@After(order=2)
 	public void postcondision1() {
 	
-		//System.out.println("5 close the browser");
+		System.out.println("5 close the browser");
 		
 	}
 	
@@ -42,7 +42,7 @@ public class HookClass extends BaseClasscucum {
 		 TakesScreenshot ts =  (TakesScreenshot)driver;
 		 byte[] scr = ts.getScreenshotAs(OutputType.BYTES);		 
 		 s.embed(scr, "image/png");
-		 System.out.println("taked screenshot");
+		 System.out.println("Failed:" + s.getName());
 		 
 	}
 	

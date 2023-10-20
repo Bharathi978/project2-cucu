@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features ="src//test//resources",glue = "org.stepdefinition",
-   monochrome = true,tags =" @Data" , plugin = {"html: allReports\\HtmlReport",
+   monochrome = true,tags =" @sanity" , plugin = {"html: allReports\\HtmlReport",
 		   "json:allReports\\jsonReport\\fb.json",
 		   "junit:allReports\\junitReport\\junit.xml",
 		   "rerun:"})

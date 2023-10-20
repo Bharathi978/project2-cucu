@@ -11,7 +11,7 @@ import cucumber.api.java.en.When;
 public class f2  extends BaseClasscucum{
   loginpojo l ;
 	
-	
+	// @mass
 	@When("user has to load the FaceBook Applicatios")
 	public void user_has_to_load_the_FaceBook_Applicatios() {
 		launchurl("https://www.facebook.com/");

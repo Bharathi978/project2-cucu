@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.412643">
+<testcase classname="To Validate The Overall Functionality Of Hotel Booking on Adacitin Application" name="To check valid data in mandatory filed" time="19.412643">
+<system-out><![CDATA[When To Launch The Url of Adacitin Appln....................................passed
+And To Pass The Valid Username and Password.................................passed
+And Check Whether Submit button Click or Not................................passed
+And the user has to select the location in a particular filed...............passed
+And the user has to choose how many children in a particular filed and click the search btn.passed
+And User has to select the hotelroom and cilck the continue btn.............passed
+And user has to pass firstname and lastname in particular filed.............passed
+And user has to give their address in particular filed......................passed
+And user has to pass the 16digits credircard number and select the cardtype.passed
+And user has to pass the expri month&year details in particular filed.......passed
+And user has to give the ccv number of card and click the booknow btn.......passed
+And user check whether see the order no or not , then orderno print in consloe when order no get.passed
+]]></system-out>
+</testcase>
+</testsuite>

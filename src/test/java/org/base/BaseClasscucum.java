@@ -44,7 +44,7 @@ public class BaseClasscucum {
 	public static WebDriver driver;
 	
 	public static void browserlunch() {
-		WebDriverManager.edgedriver().setup();
+		WebDriverManager.chromedriver().setup();
         driver = new EdgeDriver();
 	}
 	
